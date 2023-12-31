@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-ubuntu: Ubuntu;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-39xl: 58px;
+  --font-size-mini-4: 14.4px;
+  --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-teal: #377f8e;
+  --color-darkslategray: #434445;
+  --color-gainsboro: #e0e0e0;
+  --color-aliceblue-100: #e5edf1;
+  --color-aliceblue-200: rgba(229, 237, 241, 0.1);
+  --color-cadetblue-100: #6ba8b4;
+  --color-cadetblue-200: #6ba8a4;
+  --color-firebrick: #bd2323;
+  --color-lightsteelblue: #96c2db;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-10xs: 3px;
+  --gap-smi: 13px;
+
+  /* Paddings */
+  --padding-59xl: 78px;
+  --padding-mini: 15px;
+  --padding-sm: 14px;
+  --padding-371xl: 390px;
+  --padding-xs-4: 11.4px;
+  --padding-15xl-6: 34.6px;
+  --padding-823xl-8: 842.8px;
+  --padding-35xl: 54px;
+
+  /* Border radiuses */
+  --br-142xl-5: 161.5px;
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+  --br-161xl: 180px;
+}
