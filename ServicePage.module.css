@@ -795,8 +795,12 @@
   left: 408.8px;
   width: 13.7px;
 }
+.frame13,
 .olivia-don {
   position: absolute;
+  height: 24px;
+}
+.olivia-don {
   top: 0;
   left: 0;
   line-height: 24px;
@@ -805,14 +809,11 @@
   display: flex;
   align-items: center;
   width: 115.3px;
-  height: 24px;
 }
 .frame13 {
-  position: absolute;
   top: 2276px;
   left: 70px;
   width: 1780px;
-  height: 39px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-xl);
@@ -895,42 +896,52 @@
   left: 70px;
   width: 1780px;
 }
-.angel-johnson,
+.john-poll1 {
+  position: absolute;
+  left: 1357.5px;
+  width: 109.6px;
+  height: 24px;
+}
 .isabella-evans,
 .john-poll1,
 .william-brown {
-  position: absolute;
   top: 0;
-  left: 1357.5px;
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 500;
   display: flex;
   align-items: center;
-  width: 109.6px;
-  height: 24px;
 }
-.angel-johnson,
-.isabella-evans,
-.william-brown {
+.isabella-evans {
+  position: absolute;
   left: 905px;
   width: 159.3px;
+  height: 24px;
 }
-.angel-johnson,
 .william-brown {
   left: 452.5px;
   width: 162.8px;
 }
+.angel-johnson,
+.frame17,
+.william-brown {
+  position: absolute;
+  height: 24px;
+}
 .angel-johnson {
+  top: 0;
   left: 0;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
   width: 165.9px;
 }
 .frame17 {
-  position: absolute;
   top: 2833px;
-  left: 70px;
+  left: 63px;
   width: 1780px;
-  height: 39px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-xl);
