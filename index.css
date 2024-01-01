@@ -197,7 +197,7 @@
   text-transform: uppercase;
   font-weight: 600;
   font-family: var(--font-roboto);
-  color: var(--color-firebrick);
+  color: var(--color-white);
   text-align: center;
   width: 86.7px;
   height: 19px;
@@ -477,8 +477,13 @@
   color: var(--color-darkslategray);
   font-family: var(--font-roboto);
 }
-.divkmb-price-list-item1 {
+.divkmb-price-list-item1,
+.heading-46 {
   position: absolute;
+  font-family: var(--font-ubuntu);
+  color: var(--color-teal);
+}
+.divkmb-price-list-item1 {
   width: calc(100% - 1200px);
   top: 177.6px;
   right: 600px;
@@ -486,15 +491,6 @@
   border-bottom: 1px solid var(--color-aliceblue-100);
   box-sizing: border-box;
   height: 126.2px;
-  color: var(--color-teal);
-  font-family: var(--font-ubuntu);
-}
-.divkmb-widget-price6,
-.heading-46,
-.link9 {
-  position: absolute;
-  display: flex;
-  align-items: center;
 }
 .heading-46 {
   top: 55.6px;
@@ -503,15 +499,19 @@
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: var(--font-ubuntu);
-  color: var(--color-teal);
   text-align: left;
+  display: flex;
+  align-items: center;
   width: 259.5px;
   height: 24px;
 }
 .divkmb-widget-price6,
+.link12,
 .link9 {
+  position: absolute;
   box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 .divkmb-widget-price6 {
   width: calc(100% - 600px);
@@ -524,6 +524,7 @@
   padding: 0 0 0 var(--padding-59xl);
   gap: var(--gap-10xs);
 }
+.link12,
 .link9 {
   cursor: pointer;
   border: 1px solid var(--color-teal);
@@ -539,6 +540,9 @@
 }
 .link9:hover {
   background-color: var(--color-cadetblue-100);
+}
+.link12:hover {
+  background-color: var(--color-cadetblue-200);
 }
 .divkmb-price-list-item2,
 .divkmb-price-list-item3,
