@@ -30,8 +30,8 @@ body {
   --color-lightsteelblue: #96c2db;
 
   /* Gaps */
-  --gap-3xs: 10px;
   --gap-10xs: 3px;
+  --gap-3xs: 10px;
   --gap-smi: 13px;
 
   /* Paddings */

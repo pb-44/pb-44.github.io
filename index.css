@@ -996,8 +996,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: var(--gap-3xs);
+  justify-content: space-between;
 }
 .divkmb-site-page,
 .footer {
@@ -1038,7 +1037,7 @@
   width: 422.5px;
   height: 408.3px;
   overflow: hidden;
-  background-image: url(./public/pexelsmariaorlova4946649jpg11@3x.png);
+  background-image: url(./public/pexelsmariaorlova4946649jpg@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -1048,4 +1047,26 @@
   background-color: var(--color-white);
   width: 100%;
   height: 2761.3px;
+}
+@media screen and (max-width: 1200px) {
+  .list-item-link {
+    display: flex;
+    cursor: pointer;
+  }
+  .header {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .footer,
+  .header {
+    width: 110rem;
+  }
+  .divkmb-site-page {
+    width: 120rem;
+  }
+  .home-page {
+    display: flex;
+    width: 1920px;
+    height: 2761px;
+  }
 }
